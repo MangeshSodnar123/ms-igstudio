@@ -1,0 +1,68 @@
+.heading {
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 138.023%; /* 74.532px */
+}
+
+.faded_text {
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.523%; /* 29.254px */
+  opacity: 0.3;
+}
+
+.accordian_heading {
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 100% */
+}
+
+.accordion_summary {
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.523%; /* 29.254px */
+  opacity: 0.3;
+}
+
+.expand_more {
+  width: 28px;
+  height: 28px;
+  border-radius: 28px;
+  flex-shrink: 0;
+  background-color: var(--color-primary);
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 539px;
+  height: 2px;
+  opacity: 0.05;
+  background: #fff;
+}
+  
+.accordian {
+  background-color: #1d1d1d;
+  border-bottom: 2px solid #616161;
+  min-height: 70px;
+}

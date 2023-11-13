@@ -1,0 +1,41 @@
+.heading {
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 143.023%;
+  text-align: center;
+}
+
+.grid_of_cards{
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+  flex-shrink: 0;
+  border-radius: 14px;
+  position: relative;
+}
+
+.grid_card_text {
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; 
+    font-size: 24px; 
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+.grid_span_2{
+    grid-column: span 2;
+}
+
+.grid_image{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,32 @@
+.wrapper1{
+    /* margin-inline: 145px; */
+    width:100vw;
+    height:130vh;
+    background-color:#111;
+    padding-inline: 100px;
+    /* border: 1px solid green; */
+}
+.wrapper2{
+    width:100vw;
+    /* height:120vh; */
+    /* padding-top: 150px; */
+    background-color:#1D1D1D;
+    padding-inline: 100px;
+    padding-block: 150px;
+    /* border: 1px solid red; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    justify-content: space-around;
+}
+
+.button {
+    width: 172px;
+    height: 47px;
+    flex-shrink: 0;
+    border: 2px solid var(--color-white);
+    background-color: var(--color-black);
+    color: var(--color-white);
+    cursor: pointer;
+  }

@@ -1,0 +1,11 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.wrapper1{
+    display: flex;
+    gap: 10px;
+    color: var(--color-primary);
+}

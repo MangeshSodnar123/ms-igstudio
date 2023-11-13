@@ -1,0 +1,90 @@
+.wrapper {
+  display: flex;
+  align-items: flex-end;
+  /* gap: 100px; */
+  height: 510px;
+}
+
+.heading {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 147.523%;
+}
+
+.hero_image_background {
+  width: 467.71px;
+  height: 467.71px;
+  border-radius: 55px;
+  background: var(--color-primary);
+  flex: 1;
+  margin-left: 50px;
+  position: relative;
+}
+
+.input_email {
+  width: 438px;
+  height: 74px;
+  border-radius: 43px;
+  /* opacity: 0.1; */
+  border: 1px solid green;
+  overflow: hidden;
+  padding: 10px;
+  background-color: gray;
+}
+
+.input_container {
+  position: relative;
+  width: 438px;
+}
+
+.pill_input {
+  border: none;
+  border-radius: 43px;
+  /* opacity: 0.3; */
+  background: #292929;
+  padding: 10px;
+  width: 438px !important;
+  height: 74px !important;
+  font-size: 16px;
+  color: white;
+  outline: none;
+  /* borderBottom: '2px solid #ccc' */
+}
+
+.pill_input::placeholder {
+  color: #585858;
+  text-align: left;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.523%;
+}
+
+.placeholder{
+  color: red;
+  text-align: left;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.523%;
+}
+
+.search_button {
+  width: 137px;
+  height: 62px;
+  position: absolute;
+  right: 5px; 
+  top: 5px;  
+  background-color: var(--color-primary);
+  color: var(--color-black);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+  border-radius: 43px;
+  padding: 5px 10px;
+  cursor: pointer;
+}

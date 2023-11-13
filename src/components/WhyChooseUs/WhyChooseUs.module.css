@@ -1,0 +1,13 @@
+.wrapper {
+  /* border: 1px solid blue; */
+  /* margin-top: 150px; */
+}
+
+.card {
+  width: 359px;
+  height: 377px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  border: 1.4px solid rgba(255, 255, 255, 0.1);
+  background: #1d1d1d;
+}

@@ -1,0 +1,49 @@
+.heading {
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 143.023%; /* 77.232px */
+  text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.team_card {
+  width: 344px;
+  height: 109px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  /* background: #e3b748; */
+  padding: 18px;
+
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 100% */
+}
+
+.case {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  opacity: 0.3;
+}
+
+

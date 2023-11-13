@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.heading {
+  height: 154px;
+  width: 374px;
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 143.023%; /* 77.232px */
+}
+
+.button {
+  width: 90.612px;
+  height: 90.612px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 90.612px;
+  margin-left: 18px;
+  cursor: pointer;
+}

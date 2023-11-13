@@ -1,0 +1,33 @@
+.wrapper {
+  margin-block: 47px;
+  /* margin-top: 47px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: var(--color-white);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 162.523%;
+}
+
+.logo {
+  width: 143px;
+  height: 30.305px;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  gap: 41px;
+}
+
+.menu_item{
+    cursor: pointer;
+}
+
+
+
