@@ -17,7 +17,7 @@ function BasicAccordion() {
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
-          id="panel1a-header"
+          id="panel1a-header" 
         >
           <Typography className={styles.accordian_heading}>
             Do I need a personal injury report?

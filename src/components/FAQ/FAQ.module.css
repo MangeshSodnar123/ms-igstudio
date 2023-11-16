@@ -6,7 +6,7 @@
   font-weight: 600;
   line-height: 138.023%; /* 74.532px */
 }
-
+ 
 .faded_text {
   color: var(--Pure-White, #fff);
   font-family: Inter;
@@ -62,7 +62,7 @@
 }
   
 .accordian {
-  background-color: #1d1d1d;
+  background-color: #1d1d1d !important;
   border-bottom: 2px solid #616161;
   min-height: 70px;
 }

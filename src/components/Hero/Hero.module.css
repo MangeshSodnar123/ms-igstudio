@@ -1,7 +1,6 @@
 .wrapper {
   display: flex;
   align-items: flex-end;
-  /* gap: 100px; */
   height: 510px;
 }
 
@@ -26,7 +25,6 @@
   width: 438px;
   height: 74px;
   border-radius: 43px;
-  /* opacity: 0.1; */
   border: 1px solid green;
   overflow: hidden;
   padding: 10px;
@@ -36,20 +34,34 @@
 .input_container {
   position: relative;
   width: 438px;
+  height: 78px;
+  border-radius: 78px;
+  background: #292929;
+  padding-left: 50px;
+  padding-right: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mail {
+  position: absolute;
+  left: 20px;
+  top: 26px;
+  opacity: 0.3;
 }
 
 .pill_input {
   border: none;
   border-radius: 43px;
-  /* opacity: 0.3; */
   background: #292929;
-  padding: 10px;
-  width: 438px !important;
+  padding: 0px;
+  width: 200px !important;
   height: 74px !important;
   font-size: 16px;
   color: white;
   outline: none;
-  /* borderBottom: '2px solid #ccc' */
 }
 
 .pill_input::placeholder {
@@ -60,9 +72,11 @@
   font-style: normal;
   font-weight: 500;
   line-height: 162.523%;
+
+  padding-left: 40px;
 }
 
-.placeholder{
+.placeholder {
   color: red;
   text-align: left;
   font-family: Inter;
@@ -75,9 +89,6 @@
 .search_button {
   width: 137px;
   height: 62px;
-  position: absolute;
-  right: 5px; 
-  top: 5px;  
   background-color: var(--color-primary);
   color: var(--color-black);
   font-size: 16px;
@@ -87,4 +98,8 @@
   border-radius: 43px;
   padding: 5px 10px;
   cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

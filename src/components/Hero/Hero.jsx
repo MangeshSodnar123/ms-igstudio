@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import HeroImage from "../../assets/heroImage.png";
-import EmailIcon from "@mui/icons-material/Email";
-import Input from '@mui/material/Input';
-import InputAdornment from '@mui/material/InputAdornment';
+import Mail from "../../assets/Message 35.png";
 
 const Hero = () => {
   return (
@@ -24,20 +22,20 @@ const Hero = () => {
           curabitur sodales conubia ut inceptos faucibus himenaeos tortor eget,
           hac massa gravida arcu interdum proin curae.
         </div>
+
         <div className={styles.input_container}>
-          <Input
+          <div className={styles.mail}>
+            <img src={Mail} alt="Mail" />
+          </div>
+          <input
+            type="email"
+            placeholder="Enter your eamil address"
             className={styles.pill_input}
-            startAdornment={
-              <InputAdornment position="start">
-                <EmailIcon />
-              </InputAdornment>
-            }
-            placeholder="Enter your email address"
-            inputProps={{placeholderStyle: styles.placeholder }}
           />
-          <button className={styles.search_button}>Let’s Talk</button>
+          <div className={styles.search_button}>Let’s Talk</div>
         </div>
       </div>
+
       <div className={styles.hero_image_background}>
         <img
           src={HeroImage}
